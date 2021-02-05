@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.button-style-1
+{
+  width:220px;
+  height:65px;
+  font-size: 1rem;
+  background: #383838;
+  border:none;
+  outline:none;
+  color:white;
+  border: 2px solid #696969;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.4s;
+}
+.btn1:hover
+{
+ box-shadow: inset 0 0 0 5px #071061, inset 0 0 0 10px #1362ac, inset 0 0 0 15px #34f3e9
+}
+.div-styling
+{
+  height: 500px;
+  padding-left: 20px;
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 17.5px );
+  -webkit-backdrop-filter: blur( 17.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; 
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 320px;
+  background-color: black;
+  color: rgb(17, 19, 18);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: inherit;
+  z-index: 1;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 15.5px );
+  -webkit-backdrop-filter: blur( 15.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.Toolbar-grid
+{
+  display: grid;
+  padding-left: 30px;
+  padding-top: 20px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: var(--ff_primary);
+}
+.navstyle
+{
+  display: inline-flex;
+  padding-left: 25px;
+  height: auto;
+  margin-bottom: 0px;
+}
+.nav-item-style
+{
+  padding-left: 20px;
+}
+.page-wrap {
+  min-height: 100vh;
+}
